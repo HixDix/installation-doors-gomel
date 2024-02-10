@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Play:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/fon2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Comfortaa", sans-serif;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 60vw;
+  height: 60vh;
+  border: none;
+  border-radius: 3vw;
+  background-color: rgba(94, 3, 127, 0.5);
+  backdrop-filter: blur(1vw);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+h1 {
+  font-size: 5vw;
+  color: rgb(255, 255, 255);
+  font-family: "Play", sans-serif;
+  text-transform: uppercase;
+}
+input {
+  font-size: 3vw;
+  color: rgb(216, 216, 216);
+  border: none;
+  border-bottom: 0.1vw solid rgb(0, 0, 0);
+  background: none;
+  outline: none;
+  text-align: center;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.block {
+  position: relative;
+}
+#control {
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  top: 0;
+  right: 1vw;
+  background-image: url(img/1.png);
+  background-size: cover;
+}
+#control.view {
+  background-image: url(img/2.png);
+  background-size: cover;
+}
+.block_2 {
+  width: 57vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#log {
+  font-size: 2vw;
+  border: none;
+  border-radius: 0.5vw;
+  background: rgb(51, 0, 255);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: "Play", sans-serif;
+  text-decoration: none;
+  padding: 1vw 3vw;
+  transition: 0.3s ease-in-out;
+}
+#log:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: rgb(0, 255, 17);
+}
+#log:active {
+  transform: scale(0.95);
+}
+input[type="button"] {
+  font-size: 2vw;
+  border: none;
+  border-radius: 0.5vw;
+  background: rgb(51, 0, 255);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: "Play", sans-serif;
+  padding: 1vw 3vw;
+  transition: 0.3s ease-in-out;
+}
+input[type="button"]:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: rgb(0, 255, 17);
+}
+input[type="button"]:active {
+  transform: scale(0.95);
+}
