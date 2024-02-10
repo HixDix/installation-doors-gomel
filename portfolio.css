@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 570vh;
+    background-image: url(img/fon_2.jpg);
+    background-size: 100%;
+    background-position: center;
+    overflow-x: hidden;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    width: 90vw;
+    height: 8vh;
+    border: none;
+    border-radius: 5vw;
+    background-color: rgba(131, 131, 131, 0.511);
+    backdrop-filter: blur(1vw);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1vw;
+}
+.naming {
+    width: 30vw;
+    height: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 3vw;
+    height: 3vw;
+    background-image: url(img/logo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.naming a {
+    font-size: 1.7vw;
+    text-decoration: none;
+    font-family: 'Tektur', sans-serif;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+.naming a:hover {
+    color: rgb(0, 255, 17);
+    transform: scale(1.1);
+}
+.container_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+    height: 5vw;
+    font-size: 1.5vw;
+    padding: 2vw;
+}
+.container_nav a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+.container_nav a:hover {
+    color: rgb(0, 255, 17);
+    transform: scale(1.1);
+}
+.container_foto {
+    width: 95vw;
+    height: 540vh;
+    border: none;
+    border-radius: 3vw;
+    background-color: rgba(128, 128, 128, 0.493);
+    backdrop-filter: blur(1vw);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2vw;
+}
+h1 {
+    width: 100%;
+    height: 10vh;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_foto img {
+    width: 15vw;
+    height: 40vh;
+    border-radius: 2vw;
+    padding: 0.5vw;
+    transition: 0.3s ease-in-out;
+}
+.container_foto img:hover{
+    transform: scale(1.5);
+}
+.nav_2 {
+    width: 6vw;
+    height: 8vh;
+    border: none;
+    border-radius: 15vw;
+    background-color: rgba(103, 103, 103, 0.511);
+    backdrop-filter: blur(1vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+.anchor {
+    width: 4vw;
+    height: 4vw;
+    background-image: url(img/вверх.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}  

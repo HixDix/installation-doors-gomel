@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/fon_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    width: 90vw;
+    height: 8vh;
+    border: none;
+    border-radius: 5vw;
+    background-color: rgba(131, 131, 131, 0.511);
+    backdrop-filter: blur(1vw);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1vw;
+}
+.naming {
+    width: 30vw;
+    height: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 3vw;
+    height: 3vw;
+    background-image: url(img/logo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.naming a {
+    font-size: 1.7vw;
+    text-decoration: none;
+    font-family: 'Tektur', sans-serif;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+.naming a:hover {
+    color: rgb(0, 255, 17);
+    transform: scale(1.1);
+}
+
+.container_nav {
+    width: 30vw;
+    height: 5vw;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw;
+}
+.container_nav a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+.container_nav a:hover {
+    color: rgb(0, 255, 17);
+    transform: scale(1.1);
+}
+form {
+    width: 90vw;
+    height: 80vh;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 3vw;
+    backdrop-filter: blur(1vw);
+    background-color: rgba(128, 128, 128, 0.5);
+    font-family: 'Play', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1vw;
+    margin-bottom: 5vh;
+}
+.container_1 {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+h1, .info {
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1vw;
+}
+h1 {
+    font-size: 3vw;
+}
+.info {
+    font-size: 1vw;
+    color: rgba(0, 0, 0, 0.818);
+}
+.container_2 {
+    width: 40vw;
+    height: 70vh;
+}
+input[type='radio'] {
+    width: 5vw;
+    height: 2vh;
+}
+label {
+    font-size: 1.5vw;
+    color: white;
+}
+p {
+    font-size: 2vw;
+}
+.container_3 {
+    width: 40vw;
+    height: 70vh;
+}
+input[type='text'] {
+    width: 5vw;
+    height: 2vh;
+    font-size: 1vw;
+    border: 0.1vw solid rgb(0, 0, 0);
+    border-radius: 2vw;
+    outline: none;
+    text-align: center;
+    padding: 1vw;
+}
+.container_4 {
+    width: 16vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2vw;
+
+}
+#btn {
+    font-size: 2vw;
+    background-color: rgba(63, 63, 63, 0.785);
+    color: white;
+    border: none;
+    border-radius: 1vw;
+    font-family: 'Play', sans-serif;
+    transition: 0.3s ease-in-out;
+    padding: 2vw;
+}
+#btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#btn:active{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+span {
+    font-size: 1.5vw;
+    padding: 1vw;
+}

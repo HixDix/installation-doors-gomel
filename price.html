@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цена установки</title>
+    <link rel="stylesheet" href="price.css">
+    <link rel="shortcut icon" href="img/logo.png"/>
+</head>
+<body>
+    
+<nav id="top">
+    <div class="naming">
+        <div class="logo"></div>
+        <a href="index.html">Установка Дверей Гомель</a>
+    </div>
+    <div class="container_nav">
+            <a href="index.html">Главная</a>
+            <a href="price.html">Расчет</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+    </div>
+</nav>
+    <form>
+        <div class="container_1">
+            <h1>Расчет цены установки</h1>
+            <p class="info">Указана ориентировочная цена. Точная цена формируется только после замера.</p>
+        </div>
+        <div class="container_2">        
+            <p>Какое покрытие дверей?</p>
+            <label><input type="radio" name="1" id="1.1">Экошпон</label><br>
+            <label><input type="radio" name="1" id="1.2">Эмаль</label><br>
+            <label><input type="radio" name="1" id="1.3">Алюминиевая кромка</label><br><br>
+    
+            <p>Какой тип петель?</p>
+            <label><input type="radio" name="2" id="2.1">Карточные</label><br>
+            <label><input type="radio" name="2" id="2.2">Скрытые</label><br><br>
+    
+            <p>Какой тип замка?</p>
+            <label><input type="radio" name="3" id="3.1">Механический</label><br>
+            <label><input type="radio" name="3" id="3.2">Механический с запиранием</label><br>
+            <label><input type="radio" name="3" id="3.3">Магнитный</label><br><br>
+    
+            <p>Какие доборы?</p>
+            <label><input type="radio" name="4" id="4.1">Без добора</label><br>
+            <label><input type="radio" name="4" id="4.2">Добор до 150мм</label><br>
+            <label><input type="radio" name="4" id="4.3">Добор до 250мм</label><br>
+            <label><input type="radio" name="4" id="4.4">Добор свыше 250мм</label>
+        </div>
+        <div class="container_3">
+            <p>Количество наличников под роспуск?</p>
+            <label><input type="text" name="5" id="5.1"></label><br><br>
+    
+            <p>Какой тип крепежа?</p>
+            <label><input type="radio" name="6" id="6.1">Скрытый крепёж</label><br>
+            <label><input type="radio" name="6" id="6.2">Открытый крепёж</label><br><br>
+
+            <p>Какой тип крепления наличника?</p>
+            <label><input type="radio" name="7" id="7.1">Прибивной</label><br>
+            <label><input type="radio" name="7" id="7.2">Телескоп</label><br>
+            <label><input type="radio" name="7" id="7.3">Приклейка</label><br><br>
+            <div class="container_4">
+                <input type="button" value="Расcчитать" id="btn">
+                <span id="price"></span>
+            </div>
+
+        </div>
+
+    </form>
+
+    <script src="price.js"></script>
+</body>
+</html>

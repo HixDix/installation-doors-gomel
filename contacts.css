@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/fon_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    width: 90vw;
+    height: 8vh;
+    border: none;
+    border-radius: 5vw;
+    backdrop-filter: blur(1vw);
+    background-color: rgba(131, 131, 131, 0.511);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1vw;
+}
+.naming {
+    width: 30vw;
+    height: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 3vw;
+    height: 3vw;
+    background-image: url(img/logo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.naming a {
+    font-size: 1.7vw;
+    text-decoration: none;
+    font-family: 'Tektur', sans-serif;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+.naming a:hover {
+    color: rgb(0, 255, 17);
+    transform: scale(1.1);
+}
+
+.container_nav {
+    width: 30vw;
+    height: 5vw;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw;
+}
+.container_nav a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+.container_nav a:hover {
+    color: rgb(0, 255, 17);
+    transform: scale(1.1);
+}
+.container {
+    width: 90vw;
+    height: 80vh;
+    border: none;
+    border-radius: 3vw;
+    background-color: rgba(148, 147, 147, 0.563);
+    backdrop-filter: blur(1vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2vw;
+}
+.contact {
+    width: 40vw;
+    height: 40vh;
+    border: none;
+    border-radius: 2vw;
+    background-color: rgba(102, 102, 102, 0.563);
+}
+h1 {
+    width: 100%;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+}
+.contact p{
+    height: 13vh;
+    font-size: 2vw;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding-left: 2vw;
+}
+.contact p a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.contact p a:hover{
+    color: rgb(0, 255, 17);
+}
+.inst {
+    width: 51vw;
+    height: 20vh;
+    border: none;
+    border-radius: 3vw;
+    background-color: rgba(102, 102, 102, 0.563);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inst a{
+    font-size: 4vw;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+.inst a:hover{
+    color: rgb(0, 255, 17);
+    transform: scale(1.05);
+}
+.inst a img{
+    width: 6vw;
+    height: 6vw;
+    margin-left: 1vw;
+}
